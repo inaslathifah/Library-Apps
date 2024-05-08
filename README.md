@@ -1,26 +1,47 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Library App adalah sebuah aplikasi sederhana yang memungkinkan user untuk mengelola koleksi buku dalam perpustakaan. Aplikasi ini juga memungkinkan user untuk menambahkan buku baru, menghapus buku, dan melihat daftar buku yang tersedia. Aplikasi ini dibuat dengan menggunakan Typescript dan TailwindCSS, deployment menggunakan Vercel.
 
-Currently, two official plugins are available:
+# Documentation
+Deployment : 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Fitur
 
-## Expanding the ESLint configuration
+- Profile & Edit Profile
+- Login / Register
+- Dashboard (Home)
+- Pencarian
+- Dark/Light Mode
+- Lihat Daftar Buku
+- Tambah Buku Baru
+- Edit Buku
+- Hapus Buku
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Tech Stack
+React, TypeScript, Tailwind CSS
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+# Run Locally
+- Clone this project using 
+```
+git clone https://github.com/inaslathifah/Library-Apps.git
+```
+- Go to the project directory
+```
+cd Library-Apps
+```
+- Install dependencies by running 
+```
+npm install
+``` 
+or 
+```
+yarn install
+```
+- Start the development server with 
+```
+npm run dev
+``` 
+or 
+```
+yarn dev
 ```
