@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# Library Apps
 
 Library App adalah sebuah aplikasi sederhana yang memungkinkan user untuk mengelola koleksi buku dalam perpustakaan. Aplikasi ini juga memungkinkan user untuk menambahkan buku baru, menghapus buku, dan melihat daftar buku yang tersedia. Aplikasi ini dibuat dengan menggunakan Typescript dan TailwindCSS, deployment menggunakan Vercel.
 
